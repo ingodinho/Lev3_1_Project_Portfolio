@@ -263,3 +263,22 @@ footer section a {
 footer section a:hover{
   text-decoration: underline;
 }
+
+
+footer section img{
+  display: inline;
+}
+
+/* ================ANIMATION HEARTO================ */
+
+@keyframes heart {
+  from {width: 3rem;}
+  to {width: 4rem;}
+}
+
+footer section img{
+  animation-name: heart;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
