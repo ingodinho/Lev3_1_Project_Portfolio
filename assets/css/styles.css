@@ -2,7 +2,7 @@
 
 /*  font-family: 'Didact Gothic', sans-serif;
 font-family: 'Fjalla One', sans-serif;
-font-family: 'Didact Gothic', sans-serif;*/
+font-family: 'Work Sans', sans-serif;*/
 
 /* color:
 #9e9e9e, #fff, #000, #333, #666
@@ -23,15 +23,29 @@ html {
 
 
 /* ============font family=================== */
+/* memo zu mir selbst, das naechste mal mach ich das hier anders... */
 
-
-h1,h3,h2,p {
+h1 {
   font-family: 'Didact Gothic', sans-serif;
+}
+
+
+h3,
+h2,
+p,
+.more a,{
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
 }
 
-.project div, .project a {
+.project div,
+.project a
+{
   font-family: 'Fjalla One', sans-serif;
+}
+
+footer section a{
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 /* ====================================================
@@ -40,6 +54,7 @@ h1,h3,h2,p {
 
 header {
   text-align: center;
+  padding-top: 5rem;
 }
 
 header p {
@@ -98,7 +113,7 @@ header image {
 
 .project {
   height: 100vh;
-  padding: 10rem;
+  padding: 10rem 10rem 10rem 25rem;
 }
 
 .project article {
@@ -115,24 +130,35 @@ header image {
   margin-bottom: 2rem;
 }
 
+.project article p:last-child {
+  margin-bottom: 7.5rem;
+}
+
 .project article h3 {
   font-size: 11.2rem;
   text-transform: uppercase;
+  margin-bottom: 7.5rem;
 }
+
+/* button */
 
 .project a {
   display: inline-block;
   font-size: 1.6rem;
   text-decoration: none;
-  border: solid 1px;
+  text-transform: uppercase;
+  border: solid 2px #9e9e9e;
   padding: 1.6rem 2.6rem;
   color: inherit;
 }
+
+/* Number */
 
 .project > div {
   font-size: 16.5rem;
   font-family: 'Fjalla One', sans-serif;
   text-align: right;
+  margin-top: 3rem;
 }
 
 
@@ -142,7 +168,8 @@ header image {
   color: #fff;
 }
 
-.project-dark article p, .project-dark > div {
+.project-dark article p, 
+.project-dark > div {
   color: #9e9e9e;
 }
 
@@ -159,7 +186,8 @@ header image {
   color: #000;
 }
 
-.project-bright article p, .project-bright > div {
+.project-bright article p, 
+.project-bright > div {
   color: #666666;
 }
 
@@ -182,7 +210,7 @@ header image {
   height: 100vh;
   background-color: #000;
   color: #fff;
-  /* padding: 10rem 10rem; */
+  padding: 10rem 10rem;
 }
 
 .more h2 {
@@ -201,6 +229,7 @@ header image {
 .more article p {
   font-size: 2.0rem;
   color:#666666;
+  line-height: 2em;
 }
 
 .more article a {
