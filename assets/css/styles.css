@@ -266,7 +266,7 @@ footer section a:hover{
   to {width: 4rem;}
 }
 
-footer section div img{
+footer section img{
   animation-name: heart;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
